@@ -1,0 +1,1 @@
+export {BreizhBurger} from './BreizhBurger'
