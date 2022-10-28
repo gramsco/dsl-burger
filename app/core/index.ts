@@ -1,0 +1,1 @@
+export type {DrivenDomainAdapter,DrivingDomainAdapter} from './adapters'
