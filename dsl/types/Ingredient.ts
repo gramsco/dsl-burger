@@ -8,10 +8,11 @@ export type Andouille = 'andouille'
 
 export type Bread = {
 	name : 'wheat' | 'buckWheat' | 'corn',
-	sauceOnUpperBread : Butter | Sauce | Oil,
-	sauceOnLowerBread : Butter | Sauce | Oil,
+	sauceOnUpperBread : Butter | Sauce | Oil | Empty,
+	sauceOnLowerBread : Butter | Sauce | Oil | Empty,
 }
 
-export type Sauce = 'cheesy' | 'onion' | 'ketchup' | 'samouraï'
-export type Butter = 'butter'
-export type Oil = 'oil'
+type Sauce = 'cheesy' | 'onion' | 'ketchup' | 'samouraï'
+type Butter = 'butter'
+type Oil = 'oil'
+type Empty = 'empty'
