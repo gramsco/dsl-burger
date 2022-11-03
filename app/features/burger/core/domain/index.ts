@@ -1,0 +1,1 @@
+export type {BurgerError,BurgerSpecification} from './types'

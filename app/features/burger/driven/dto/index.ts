@@ -1,0 +1,1 @@
+export {fakeJSONResponse} from './fake.response'
